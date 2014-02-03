@@ -17,7 +17,7 @@ public class adventure : MonoBehaviour {
 		switch(currentRoom){
 			case ("Lobby"):
 				textBuffer += "\nYou see the NYU Poly security guard";
-				textBuffer += "\nPress [w] to use elevator";
+				textBuffer += "\n\nPress [w] to use elevator";
 				textBuffer += "\nPress [s] to go outside";
 				if (Input.GetKeyDown(KeyCode.W)) currentRoom = "Elevator";
 				if (Input.GetKeyDown(KeyCode.S)) currentRoom = "Outside";
@@ -25,7 +25,7 @@ public class adventure : MonoBehaviour {
 			case ("Outside"):
 				textBuffer += "\nWow, there's a lot of snow";
 				textBuffer += "\nThis kinda sucks";
-				textBuffer += "\nPress [s] to go back inside";
+				textBuffer += "\n\nPress [s] to go back inside";
 				if (Input.GetKeyDown(KeyCode.S)) currentRoom = "Lobby";
 				break;
 			case ("Elevator"):
@@ -38,7 +38,7 @@ public class adventure : MonoBehaviour {
 			case ("Eighth Floor"):
 				textBuffer += "\nHold [w] to tap NYU ID";
 				if (Input.GetKey(KeyCode.W)) textBuffer += "\n\nYour ID isn't working\nThat's too bad";
-				else textBuffer += "\nPress [s] to go back to the elevator";
+				else textBuffer += "\nPress [s] to go back to the elevator\n\n";
 				if (Input.GetKeyDown(KeyCode.S)) currentRoom = "Elevator";
 				break;
 		}
