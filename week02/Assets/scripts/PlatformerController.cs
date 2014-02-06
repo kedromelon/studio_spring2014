@@ -24,13 +24,13 @@ public class PlatformerController : MonoBehaviour {
 		moveVector = Vector3.zero;
 
 		if (Input.GetKey(KeyCode.W))
-			moveVector += transform.forward;
+			moveVector += Vector3.forward;
 		if (Input.GetKey(KeyCode.S))
-			moveVector -= transform.forward;
+			moveVector -= Vector3.forward;
 		if (Input.GetKey(KeyCode.A))
-			moveVector -= transform.right;
+			moveVector -= Vector3.right;
 		if (Input.GetKey(KeyCode.D))
-			moveVector += transform.right;
+			moveVector += Vector3.right;
 
 		if (controller.isGrounded){
 			if (Input.GetKeyDown(KeyCode.Space))
@@ -41,6 +41,11 @@ public class PlatformerController : MonoBehaviour {
 			velocity.x = Mathf.Lerp(velocity.x, moveVector.x*speed, Time.deltaTime * acceleration / 2f);
 			velocity.z = Mathf.Lerp(velocity.z, moveVector.z*speed, Time.deltaTime * acceleration / 2f);
 		}
+
+		if (velocity.x != 0f || velocity.z != 0f)
+			transform.rotation = Quaternion.Slerp(transform.rotation, 
+			                                      Quaternion.LookRotation(new Vector3(velocity.x, 0f, velocity.z)),
+			                                      Time.deltaTime*5f);
 			
 		velocity.y -= gravity * Time.deltaTime;
 		controller.Move(velocity * Time.deltaTime);
