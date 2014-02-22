@@ -9,4 +9,9 @@ public class SwitchCamera : MonoBehaviour {
 		fromcamera.camera.enabled = false;
 		tocamera.camera.enabled = true;
 	}
+
+	void Update(){
+		if (Input.GetKeyDown(KeyCode.R))
+			Application.LoadLevel(Application.loadedLevel);
+	}
 }
