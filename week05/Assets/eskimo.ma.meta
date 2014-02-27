@@ -1,0 +1,267 @@
+fileFormatVersion: 2
+guid: 4ce1a0484ee244e68b22d4c0ca301a13
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: head
+    100004: leftArm
+    100006: leftLeg
+    100008: neck
+    100010: rightArm
+    100012: rightLeg
+    100014: head1
+    100016: head2
+    100018: head3
+    100020: head4
+    100022: head5
+    100024: hood
+    100026: leftarm
+    100028: leftleg
+    100030: parkabottom
+    100032: parkaleft
+    100034: parkaright
+    100036: parkatop
+    100038: rightarm
+    100040: rightleg
+    400000: //RootNode
+    400002: head
+    400004: leftArm
+    400006: leftLeg
+    400008: neck
+    400010: rightArm
+    400012: rightLeg
+    400014: head1
+    400016: head2
+    400018: head3
+    400020: head4
+    400022: head5
+    400024: hood
+    400026: leftarm
+    400028: leftleg
+    400030: parkabottom
+    400032: parkaleft
+    400034: parkaright
+    400036: parkatop
+    400038: rightarm
+    400040: rightleg
+    2300000: //RootNode
+    2300002: head
+    2300004: leftArm
+    2300006: leftLeg
+    2300008: neck
+    2300010: rightArm
+    2300012: rightLeg
+    2300014: head1
+    2300016: head2
+    2300018: head3
+    2300020: head4
+    2300022: head5
+    2300024: hood
+    2300026: leftarm
+    2300028: leftleg
+    2300030: parkabottom
+    2300032: parkaleft
+    2300034: parkaright
+    2300036: parkatop
+    2300038: rightarm
+    2300040: rightleg
+    3300000: //RootNode
+    3300002: head
+    3300004: leftArm
+    3300006: leftLeg
+    3300008: neck
+    3300010: rightArm
+    3300012: rightLeg
+    3300014: head1
+    3300016: head2
+    3300018: head3
+    3300020: head4
+    3300022: head5
+    3300024: hood
+    3300026: leftarm
+    3300028: leftleg
+    3300030: parkabottom
+    3300032: parkaleft
+    3300034: parkaright
+    3300036: parkatop
+    3300038: rightarm
+    3300040: rightleg
+    4300000: torso
+    4300002: leftLeg
+    4300004: rightLeg
+    4300006: leftArm
+    4300008: rightArm
+    4300010: head
+    4300012: neck
+    4300014: head1
+    4300016: head2
+    4300018: head3
+    4300020: head4
+    4300022: head5
+    4300024: rightleg
+    4300026: leftleg
+    4300028: rightarm
+    4300030: leftarm
+    4300032: parkatop
+    4300034: parkabottom
+    4300036: parkaright
+    4300038: parkaleft
+    4300040: hood
+    7400000: run
+    7400002: idle
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: run
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 24
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: head
+        weight: 1
+      - path: hood
+        weight: 1
+      - path: leftarm
+        weight: 1
+      - path: leftleg
+        weight: 1
+      - path: neck
+        weight: 1
+      - path: parkabottom
+        weight: 1
+      - path: parkaleft
+        weight: 1
+      - path: parkaright
+        weight: 1
+      - path: parkatop
+        weight: 1
+      - path: rightarm
+        weight: 1
+      - path: rightleg
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: idle
+      takeName: Take 001
+      firstFrame: 25
+      lastFrame: 48
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: head
+        weight: 1
+      - path: hood
+        weight: 1
+      - path: leftarm
+        weight: 1
+      - path: leftleg
+        weight: 1
+      - path: neck
+        weight: 1
+      - path: parkabottom
+        weight: 1
+      - path: parkaleft
+        weight: 1
+      - path: parkaright
+        weight: 1
+      - path: parkatop
+        weight: 1
+      - path: rightarm
+        weight: 1
+      - path: rightleg
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .174999997
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 6
+    splitTangentsAcrossUV: 1
+    normalImportMode: 1
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
